@@ -1,0 +1,179 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: sans-serif;
+	background-color:  #d4d4d6;
+}
+.row {
+	width:  100%;
+}
+h1 {
+	text-align: center;
+	color:  #1a23c7;
+	font-family: verdana;
+}
+p {
+	color: #000000;
+}
+.content {
+	background: #ffffcc;
+}
+
+#sec1 {
+	background:  #2eb82e;
+	color:  #ffffff;
+	width: 40%;
+}
+#sec2 {
+	background:  #ff9933;
+	color: #ffffff;
+	width:  40%;
+
+}
+#sec3 {
+	background: #ff6666;
+	color: #ffffff;
+	width:  30%;
+}
+
+
+/********** Large Devices **********/
+@media (min-width: 992px) {
+	.col-lg-3 {
+		width:  33.33%;
+		float: left;
+		padding:  10px;
+	}
+	h1 {
+		padding-top: 20px;
+		font-size: 1.9em;
+	}
+	p {
+		border:  1px #000000 solid;
+		position:  relative;
+		margin: 20px;
+	}
+	.content {
+		padding-top: 47px;
+		padding-right: 14px;
+		padding-bottom: 15px;
+		padding-left: 14px;
+	}
+	#content1, #sec1 {
+		margin-left: 4%;
+		margin-right: 1%;
+	}
+	#content2, #sec2 {
+		margin-left: 4%;
+		margin-right: 1%;
+	}
+	#content3, #sec3 {
+		margin-left: 1%;
+		margin-right: 4%;
+	}
+	p.sec {
+		position:  relative;
+		padding: 2px;
+		z-index: 2;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		float: right;
+		font-size: 1.1em;
+		width: 40%;
+		text-align: center;
+		font-weight: bold;
+		border:  1px solid #000000;
+
+	}
+}
+
+/********** Medium Devices (Tablet) ***********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6 {
+		width:  50%;
+		float:  left;
+	}
+	.col-md-12 {
+		width: 100%;
+		float:  left;
+	}	
+	.row {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#div1 {
+		padding-top: 20px;
+		padding-left: 22px;
+		padding-right: 12px;
+	}
+	#div2 {
+		padding-top: 20px;
+		padding-left: 12px;
+		padding-right: 22px;
+	}
+	#div3 {
+		padding-bottom: 20px;
+		padding-left: 22px;
+		padding-right: 22px;
+		font-size: 1em;
+	}	
+	h1 {
+		font-size: 1.8em;
+		padding-top: 20px;
+	}
+	p {
+		padding: 42px 15px 5px 15px;
+		font-size: 1.05em;
+		position:  relative;
+		border: 1px solid #000000;
+	}
+	p.sec {
+		position:  relative;
+		top: 0;
+		float: right;
+		z-index: 2;
+		padding:  2px;
+		border:  1px solid #000000;
+		text-align:  center;
+		font-weight: bold;
+	}
+}
+
+/*********** Small Devices ***********/
+@media (max-width: 767px) {
+	.col-sm-12 {
+		width:  100%;
+		float: left;
+	}
+	h1 {
+		position:  relative;
+		font-size: 1.5em;
+		padding-top: 10px;
+	}
+	p {
+		position: relative;
+		border:  1px #000000 solid;
+		font-size: 0.9em;
+	}
+	p.content {
+		position: relative;
+		padding: 40px 18px 15px 18px;
+	}
+	p.sec {
+		position:  relative;
+		top: 0;
+		float: right;
+		z-index: 2;
+		border:  1px solid #000000;
+		text-align:  center;
+		font-weight: bold;
+		padding: 2px;
+		font-size: 15px;
+	}
+	.row {
+		padding-left: 45px;
+		padding-right:  30px;
+	}
+}
