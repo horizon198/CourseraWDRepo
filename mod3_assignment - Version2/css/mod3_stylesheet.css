@@ -1,0 +1,152 @@
+*{
+	border-sizing: border-box;
+}
+body {
+	font-family: 'Oxygen', sans-serif;
+	position: relative;
+}
+.row {
+	width: 100%;
+	position: relative;
+}
+
+#header-nav {
+	background-color:  #b30059;
+	color: #ffffff;
+	border-radius: 0;
+	border: 0;
+}
+#brand-logo img {
+	height: 80px;
+	width:  80px;
+	border: 2px #ffffff solid;
+	border-radius: 50%;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#brand-name {
+	color: #ffffff;
+	font-family: 'Lobster', sans-serif;
+	text-shadow: 1px 1px 1px #cccccc;
+	font-size: 5vw;
+}
+#brand-name:hover {
+	color: #ff9933;
+}
+#menu-button{
+	background-color: #ffffff;
+}
+#menu-button:hover {
+	background-color: #ff9933;
+}
+.navbar-toggle, .icon-bar {
+	border: 1px solid #61122f;
+}
+#nav-list li:nth-child(1) {
+	background-color: #ffffcc;
+}
+#nav-list li:nth-child(2) {
+	background-color: #e6ffcc;
+}
+#nav-list li:nth-child(3) {
+	background-color: #ffe6cc;
+}
+#nav-list a {
+	text-align: center;
+	font-size: 1.2em;
+}
+#nav-list a:hover {
+	color:  #ff9933;
+	background-color: #ffffff;
+}
+.col-md-12, .col-sm-12, .col-xs-12 {
+	position: relative;
+	float: left;
+}
+.section-content {
+	font-size: 1.2em;
+}
+#page-heading {
+	color: #339966;
+	font-weight: bold;
+	font-family: 'Oxygen', sans-serif;
+	padding-bottom: 15px;
+}
+.section-title {
+	font-family: 'Lobster', sans-serif;
+	color:  #ff9933;
+	font-size: 1.5em;
+}
+#content1 {
+	background-color: #ffffcc;
+	padding: 5px 15px;
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+#content2 {
+	background-color: #e6ffcc;
+	padding: 5px 15px;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	position: relative;
+
+}
+#content3 {
+	background-color: #ffe6cc;
+	padding: 5px 15px;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	position: relative;
+}
+#footer {
+	font-family: 'Lobster', sans-serif;
+	font-size: 15px;
+}
+
+/*********** Media Queries for Medium Devices ************/
+@media (min-width:  992px) {
+	.col-md-4 {
+		position: relative;
+		float: left;
+		width: 33.33%;
+	}
+}
+
+/*********** Media Queries for Small Devices ************/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-sm-6 {
+		position: relative;
+		float: left;
+		width: 50%;
+		margin-bottom: 20px;
+	}
+	.col-sm-12 {
+		position: relative;
+		float: left;
+		width: 100%;
+	}
+		
+}
+
+
+/*********** Media Queries for Extra-Small Devices ************/
+@media (max-width: 767px) {
+	.col-xs-12 {
+		position: relative;
+		float: left;
+		width: 100%;
+	}
+	
+	.section-content {
+		font-size: 1em;
+	}
+
+}
